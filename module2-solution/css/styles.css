@@ -16,6 +16,7 @@ h1 {
 .row {
     width: 100%;
     padding: 10px;
+
   }
 
 section {
@@ -68,12 +69,17 @@ section {
 
 
 @media (min-width:768px) and (max-width:991px) {
-    #second, #first {
-        width: 48.8%;
-    }
-    #third {
+    .row {
         width: 100%;
-        margin-right: 20px;
+    }
+    #second, #first {
+        margin: 1%;
+        width: 48%;
+    }
+
+    #third {
+        width: 99%;
+        margin: 1%;
     }
 }
 @media  (max-width:767px) {

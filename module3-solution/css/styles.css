@@ -1,0 +1,27 @@
+.bg-light {
+    background-color: rgb(83, 247, 206) !important;
+}
+
+@media (min-width: 767px) {
+    #navbarSupportedContent {
+        visibility: hidden;
+    }
+}
+
+.cheight {
+    height: auto;
+}
+.color {
+    background-color: lightseagreen;
+}
+.dcolor {
+    background-color: rgba(67, 248, 239, 0.438);
+}
+
+li a:hover {
+    background-color: rgba(174, 210, 245, 0.726);
+    
+}
+.borderlight {
+    border-bottom: 1px solid rgba(184, 182, 182, 0.438);
+}
